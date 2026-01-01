@@ -1,0 +1,23 @@
+Scraper les prix d’un produit (ex : cartes graphiques, livres, jeux vidéo)
+→ Suivi de prix sur Amazon, Fnac, Cdiscount…
+→ Affichage de l’évolution ou classement par prix.
+
+🔧 Technos / outils
+requests → pour récupérer le contenu HTML
+
+BeautifulSoup → pour extraire les données du HTML
+
+pandas → pour nettoyer et structurer les données
+
+matplotlib / seaborn / plotly → pour créer des graphiques
+
+tkinter ou Flask (facultatif) → pour créer une interface
+
+
+📁 scraper_project/
+│
+├── scraper.py         → Récupère les données (HTML → données brutes)
+├── parser.py          → Nettoie et structure les données (listes, dictionnaires, DataFrame)
+├── visualizer.py      → Affiche graphiques / tableaux
+├── app.py             → (optionnel) interface GUI ou web
+└── data/              → (CSV ou cache des données)
