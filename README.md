@@ -1,2 +1,2 @@
 # plein-d-exercice-python
-plein de petit projet pour apprendre pythpn 
+plein de petits projets pour apprendre pythpn 
